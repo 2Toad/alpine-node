@@ -12,7 +12,7 @@ Minimal [Node.js](https://nodejs.org/) [Docker](https://www.docker.com/) images 
     WORKDIR /src
     ADD . .
 
-	RUN npm install
+    RUN npm install
 
     EXPOSE 3000
     CMD ["node", "index.js"]
