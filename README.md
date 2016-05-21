@@ -2,12 +2,12 @@
 Minimal [Node.js](https://nodejs.org/) [Docker](https://www.docker.com/) images built on [Alpine Linux](https://alpinelinux.org/)
 
 ## Versions
-* latest, 6.2.0 – 46 MB (npm 3.x)
-* lts, 4.4.4 – 36.31 MB (npm 2.x)
+* latest, 6.2.0 – 46 MB (npm 3.9.2)
+* lts, 4.4.4 – 36.31 MB (npm 2.15.5)
 
 ## Example
-    # FROM 2toad/alpine-node:6.2.0
-    FROM 2toad/alpine-node:4.4.4
+    FROM 2toad/alpine-node:6.2.0
+    # FROM 2toad/alpine-node:4.4.4
 
     WORKDIR /src
     ADD . .
