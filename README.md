@@ -1,12 +1,19 @@
 # alpine-node
+
+[![GitHub](https://img.shields.io/badge/GitHub-OpenSource-green.svg)](https://github.com/2Toad/alpine-node)
+[![Docker](https://img.shields.io/badge/Docker-Hub-blue.svg)](https://hub.docker.com/r/2toad/alpine-node/)
+
 Minimal [Node.js](https://nodejs.org/) [Docker](https://www.docker.com/) images built on [Alpine Linux](https://alpinelinux.org/)
 
 ## Versions
-* latest, 6.2.0 – 46 MB (npm 3.9.2)
-* lts, 4.4.4 – 36.31 MB (npm 2.15.5)
+
+| Tags              | Node  | NPM    | Alpine | Image    |
+|-------------------|-------|--------|--------|----------|
+| `latest`, `6.2.0` | 6.2.0 | 3.9.2  | 3.3.0  | 46.0 MB  |
+| `lts`, `4.4.4`    | 4.4.4 | 2.15.5 | 3.3.0  | 36.31 MB |
 
 ## Example
-    FROM 2toad/alpine-node:6.2.0
+    FROM 2toad/alpine-node:latest
     # FROM 2toad/alpine-node:4.4.4
 
     WORKDIR /src
