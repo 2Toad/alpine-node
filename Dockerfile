@@ -1,6 +1,6 @@
-FROM alpine:3.6
+FROM alpine:3.8
 MAINTAINER Jason Pierce <jason@2toad.com>
-ENV VERSION=v8.6.0 NPM_VERSION=5.3.0
+ENV VERSION=v8.11.4 NPM_VERSION=5.6.0
 
 RUN apk add --update --no-cache curl make gcc g++ python linux-headers paxctl libgcc libstdc++ && \
   curl -o node-${VERSION}.tar.gz -sSL https://nodejs.org/dist/${VERSION}/node-${VERSION}.tar.gz && \
