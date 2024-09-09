@@ -1,3 +1,7 @@
+> # Archived Repository 🚨
+> **This project is no longer maintained and has been archived. No further issues, PRs, or updates will be made.**
+---
+
 # alpine-node
 
 [![GitHub](https://img.shields.io/badge/GitHub-OpenSource-green.svg)](https://github.com/2Toad/alpine-node)
